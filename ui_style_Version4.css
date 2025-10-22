@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 16px;
+}
+#controls { margin-bottom: 8px; }
+#table {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 40px);
+  gap: 4px;
+  align-items: center;
+}
+.bucket {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #444;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size: 11px;
+  box-sizing: border-box;
+}
+.empty { background: #fafafa; color: #888; }
+.occupied { background: #7fb77e; color: #062006; font-weight: bold; }
+.deleted { background: #ffdba1; color: #6a3b00; }
+.chaining-bucket { background: #cfe7ff; color: #02284a; font-size: 10px; padding: 2px; }
+#stats { margin-top: 10px; }
